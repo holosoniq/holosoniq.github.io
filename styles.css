@@ -62,7 +62,9 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  width: 220px;
+  width: 260px;
+  height: 64px;
+  overflow: hidden;
   max-width: 100%;
   flex-shrink: 0;
 }
@@ -71,7 +73,7 @@ a {
   display: block;
   width: 100%;
   height: auto;
-  filter: brightness(0) invert(1);
+  filter: brightness(0) saturate(100%) invert(72%) sepia(32%) saturate(1139%) hue-rotate(319deg) brightness(103%) contrast(101%);
 }
 
 nav {
