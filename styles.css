@@ -133,6 +133,18 @@ nav a[aria-current="page"] {
   object-fit: contain;
 }
 
+.news-logo img[alt="NSF I-Corps Hub Southeast Region"] {
+  width: 100%;
+  max-height: 5rem;
+}
+
+.quadrant-logo {
+  color: #132124;
+  font-size: 1.55rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
 .news-date {
   color: var(--coral);
   font-size: 0.85rem;
